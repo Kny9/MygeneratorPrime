@@ -16,8 +16,8 @@ func Createpdf(Name, Prime, Img string) {
 	pdf.SetTitle("Avis de recherche", true)
 	// pageWidth, pageHeight := pdf.GetPageSize()
 
-
-	pdf.Image("image/wantedVierge.jpg", 0, 0, 210, 0, false, "", 0,"")
+	pdf.Image("image/marron.jpeg", 0, 0, 300, 0, false, "", 0,"")
+	pdf.Image("image/wantedVierge.png", 0, 0, 210, 0, false, "", 0,"")
 	pdf.Image(Img, 25, 70, 160, 110, false, "",0,"")
 	fmt.Println("TEST")
 	
